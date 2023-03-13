@@ -20,3 +20,4 @@
 
 //Some parameters to add at the commands
 //to approve automaticaly, add to the command: -auto-approve
+//Example: terraform apply -auto-approve
