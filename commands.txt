@@ -1,0 +1,22 @@
+//test some new change before to apply
+//terraform console
+//call the method like cidrsubnet()
+
+//to format all the files
+//terraform fmt
+// to format all the directories, parameter: -recursive
+
+//to verify if have something wrong about sintax
+//terraform validate
+
+//to verify
+//terraform plan
+
+//to apply all the changes
+// terraform apply
+
+//to destroy all the structure
+//terraform apply -destroy
+
+//Some parameters to add at the commands
+//to approve automaticaly, add to the command: -auto-approve
