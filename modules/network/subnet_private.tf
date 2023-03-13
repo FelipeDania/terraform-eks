@@ -3,7 +3,7 @@ resource "aws_subnet" "subnet_eks_private_1a" {
   cidr_block        = cidrsubnet(var.cidr_block, 8, 3) //"10.0.1.0/24"
   availability_zone = "${data.aws_region.current.name}a"
   tags = merge(
-    local.tags,
+   var.tags,
     { Name = "${var.project_name}-private-subnet-1a",
     "kubernetes.io/role/internal-elb" = 1 }
 
@@ -16,7 +16,7 @@ resource "aws_subnet" "subnet_eks_private_1b" {
   cidr_block        = cidrsubnet(var.cidr_block, 8, 4) //"10.0.2.0/24"
   availability_zone = "${data.aws_region.current.name}b"
   tags = merge(
-    local.tags,
+   var.tags,
     { Name = "${var.project_name}-private-subnet-1b",
     "kubernetes.io/role/internal-elb" = 1 }
 

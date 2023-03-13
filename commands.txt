@@ -1,3 +1,6 @@
+//To initate a terraform project, insert the info to terraform.tfstate
+//terraform init
+
 //test some new change before to apply
 //terraform console
 //call the method like cidrsubnet()
