@@ -7,7 +7,7 @@
 
 //to format all the files
 //terraform fmt
-// to format all the directories, parameter: -recursive
+//to format all the directories, parameter: -recursive
 
 //to verify if have something wrong about sintax
 //terraform validate
