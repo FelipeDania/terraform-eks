@@ -7,7 +7,7 @@
 
 //to format all the files
 //terraform fmt
-//to format all the directories, parameter: -recursive
+
 
 //to verify if have something wrong about sintax
 //terraform validate
@@ -24,3 +24,5 @@
 //Some parameters to add at the commands
 //to approve automaticaly, add to the command: -auto-approve
 //Example: terraform apply -auto-approve
+//to format all the directories, parameter: -recursive
+//Example: terraform fmt -recursive
